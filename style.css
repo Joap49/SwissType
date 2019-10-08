@@ -1,0 +1,78 @@
+
+*{
+  margin: -3.8px;
+}
+
+body{
+  font-family: "Poppins";
+}
+
+.mainContainer{
+  /* display: block; */
+  padding: 0px;
+  font-size: 30vh;
+  /* display: flex;
+  padding: 0px;
+  margin: 0px;
+  justify-content: flex-start;
+  flex-direction: column;
+  /* flex-wrap: nowrap;  */
+}
+
+.lineOne{
+  float: left;
+  position: absolute;
+  transform: translateY(0px);
+  color: #EB3423;
+  letter-spacing: -12px;
+}
+
+.lineTwo{
+  clear: both;
+  float: left;
+  position: absolute; /* lets it be positioned wherever top & left positions it*/
+  left: -19px;
+  transform: translateY(165px);
+  letter-spacing: -12px;
+}
+
+.lineThree{
+  float: left;
+  position: absolute;
+  transform: translateY(330px);
+  letter-spacing: -12px;
+}
+
+.textboxOne{
+  float:right;
+  font-size: 1.1vh;
+  position: absolute;/* lets it be positioned wherever top & left positions it*/
+  top: 170px;
+  left: 270px;
+  word-spacing: 3px;
+  letter-spacing: .5px;
+  line-height: 170%;
+}
+
+#novLine{
+  padding-bottom: 20px;
+}
+
+.textboxThree{
+  float:right;
+  font-size: 1.1vh;
+  position: absolute; /* lets it be positioned wherever top & left positions it*/
+  top: 460px;
+  left: 270px;
+  word-spacing: 3px;
+  letter-spacing: .5px;
+  line-height: 170%;
+}
+
+#lbcLine{
+  padding-bottom: 20px;
+}
+
+#workLine{
+  padding-bottom: 20px;
+}
